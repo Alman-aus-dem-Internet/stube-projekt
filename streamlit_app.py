@@ -8,9 +8,9 @@ ver3 = ["C"]
 list = [ver1,ver2,ver3]
 
 for i in range(3):
-    ver1.append(randint(1,5))
-    ver2.append(randint(1,5))
-    ver3.append(randint(1,5))
+        ver1.append(randint(1,5))
+            ver2.append(randint(1,5))
+                ver3.append(randint(1,5))
 
 list_without_first = [i[1:] for i in list]
 st.write(list)
