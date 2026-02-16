@@ -18,6 +18,17 @@ st.write(User_in)
 User_in.append(st.slider("Frage 3 :",1,5,3))
 st.write(User_in)
 
+def vergleich(a,b):
+    a = array(a,dtype=float)
+    b = array(b,dtype=float)
+    test = dot(a,b)
+    # Step 2: Compute the magnitudes of the vectors
+    magnitude_A = linalg.norm(a)
+    magnitude_B = linalg.norm(b)
+    # Step 3: Calculate cosine similaritycosine_similarity = test2 / (magnitude_A * magnitude_C)
+    cos_similarity = test / (magnitude_A * magnitude_B)
+    return cos_similarity
+
 #noch anpassen 
 t = 0 
 best_erg = 0 
