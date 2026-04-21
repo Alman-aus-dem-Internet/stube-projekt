@@ -52,4 +52,4 @@ for n in list:
     t += 1
 
 st.write(best_erg)
-
+st.write("isdnfjsdhfbsj")
